@@ -5,7 +5,7 @@ pipeline {
         // Docker Hub 또는 사용 중인 Docker 레지스트리에 로그인하기 위한 환경 변수
         DOCKER_HUB_CREDENTIALS = 'docker-hub-credentials-id'
         // Docker 이미지의 이름 및 태그를 정의합니다.
-        DOCKER_IMAGE_NAME = 'test'
+        DOCKER_IMAGE_NAME = 'geonu97/test'
         DOCKER_IMAGE_TAG = 'latest'
     }
 
